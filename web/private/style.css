@@ -1,0 +1,79 @@
+body {
+  max-width: 600px;
+}
+
+.enemy-ct-and-overdrive-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enemy-hp-bar {
+  width: 100%;
+}
+
+.stage {
+  display: flex;
+}
+
+.stage-enemyside,
+.stage-playerside {
+  flex: 1;
+}
+
+.stage-playerside {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enemy-graphic {
+  font-size: 10em;
+}
+
+.character-graphic {
+  font-size: 5em;
+  width: 50%;
+}
+
+.attack-button-container {
+  text-align: right;
+}
+
+.attack-button {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(186, 57, 44);
+  color: white;
+  font-size: 1.5em;
+  padding: 0.3em 2em;
+}
+
+.ability-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ability-button {
+  border: 5px solid;
+  border-radius: 3px;
+  font-size: 1em;
+  padding: 0.3em 1em;
+}
+
+.ability-button[disabled] {
+  background-color: gray;
+}
+
+.ability-button-buff {
+  border-color: rgb(217, 200, 76);
+}
+
+.ability-button-attack {
+  border-color: rgb(217, 44, 62);
+}
+
+.damage {
+  position: fixed;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
